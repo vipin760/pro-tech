@@ -5,7 +5,7 @@ const Home = () => {
     <>
     <div className='min-h-screen'>
         
-      ksldk
+   home
     </div>
     <div className='min-h-screen'>
         
