@@ -6,13 +6,12 @@ const About = lazy(()=>import("./components/pages/About/About"))
 const Service = lazy(()=>import("./components/pages/Service/Service"))
 const Contact = lazy(()=>import("./components/pages/Contact/Contact"))
 import Header from "./components/partials/Header/Header";
+import Footer from "./components/partials/Footer/Footer";
 function App() {
 
   return (
     <>
        <BrowserRouter>
-      <div id="smooth-wrapper">
-        <div id="smooth-content" transition-style="in:wipe:down">
           <Header />
           <Suspense fallback={<div>Loading.......</div>}>
             <Routes>
@@ -22,8 +21,7 @@ function App() {
               <Route path="/service" element={<Service/>} />
             </Routes>
           </Suspense>
-        </div>
-      </div>
+          <Footer/>
     </BrowserRouter>
     </>
   );
