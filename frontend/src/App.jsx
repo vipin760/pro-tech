@@ -12,8 +12,8 @@ function App() {
     <>
        <BrowserRouter>
        <Header />
-      <div id="smooth-wrapper" className="h-[50rem] w-full dark:bg-black bg-[#423838]  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-        <div id="smooth-content" transition-style="in:wipe:down" className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]">
+      <div id="smooth-wrapper">
+        <div id="smooth-content" transition-style="in:wipe:down">
           <Suspense fallback={<div>Loading.......</div>}>
             <Routes>
               <Route path="/" element={<Home />} />
