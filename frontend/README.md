@@ -9,3 +9,9 @@ https://css-loaders.com/hypnotic/
 transition page
 https://www.transition.style/#in:circle:hesitate
 
+framer motion install
+ npm i framer-motion clsx tailwind-merge
+
+frame motion background 
+npm i mini-svg-data-uri
+
