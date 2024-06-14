@@ -7,7 +7,7 @@ const WhoWeAre = () => {
    const headerColor = "text-blue-100 text-3xl"
   return (
     <>
-    <div className="flex justify-center p-5">
+    <div className="flex justify-center p-5 bg-slate-950" style={{backgroundImage:"url()"}}>
       {/* left */}
       <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
         <h1 className="text-sm m-3 font-bold text-opacity-35">WHO WE ARE</h1>

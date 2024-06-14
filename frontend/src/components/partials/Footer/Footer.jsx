@@ -34,10 +34,10 @@ const Footer = () => {
         </div>
         <div className="my-4">
           <ul className="flex gap-2">
-            <li className="bg-gray-50 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandFacebook/></a></li>
-            <li className="bg-gray-50 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandInstagram/></a></li>
-            <li className="bg-gray-50 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandTwitter/></a></li>
-            <li className="bg-gray-50 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandLinkedin/></a></li>
+            <li className="bg-gray-500 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandFacebook/></a></li>
+            <li className="bg-gray-500 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandInstagram/></a></li>
+            <li className="bg-gray-500 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandTwitter/></a></li>
+            <li className="bg-gray-500 w-8 rounded-lg p-1 hover:bg-black cursor-pointer"><a href="" className="text-black hover:text-white"><IconBrandLinkedin/></a></li>
           </ul>
         </div>
       </div>
