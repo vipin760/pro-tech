@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Hero.css"
-import bgVideo from "../../../../public/cover.mp4"
 
 const Hero = () => {
   return (

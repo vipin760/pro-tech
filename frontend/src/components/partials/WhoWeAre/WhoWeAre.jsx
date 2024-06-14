@@ -1,7 +1,7 @@
 import React from "react";
 import TextGenerateEffect from "../../ui/TextGenerateEffects";
 
-const header = `Partnering in Business Sustainability through Network Technical Support`;
+const header = `Partnering in Business Sustainability through Network Technical Support Partnering in Business Sustainability`;
 const WhoWeAre = () => {
    const headerColor = "text-blue-100 text-3xl"
   return (
