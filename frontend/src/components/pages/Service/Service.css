@@ -1,0 +1,7 @@
+.cta {
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/04/17/21/fractal-1076861_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; /* Ensures the background image is fixed */
+    min-height: 100vh; /* Ensures it covers the full viewport height */
+  }
