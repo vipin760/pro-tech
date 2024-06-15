@@ -57,11 +57,13 @@ const Service = () => {
     <div>
       <div>
       <div className="logo">
-                    <img
+                   <a href="/">
+                   <img
                         src={logo}
                         className="h-40 w-40 bg-transparent"
                         alt=""
                     />
+                   </a>
                 </div>
         <Cta title={title} description={description} url={url}/>
         <WhatWeDo/>

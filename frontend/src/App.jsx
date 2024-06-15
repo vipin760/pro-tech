@@ -8,6 +8,7 @@ const Contact = lazy(() => import("./components/pages/Contact/Contact"));
 import Header from "./components/partials/Header/Header";
 import Footer from "./components/partials/Footer/Footer";
 import logo from "../src/assets/logo.png";
+import Loading from "./components/partials/Loading/Loading";
 
 function App() {
     return (
