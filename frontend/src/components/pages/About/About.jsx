@@ -1,6 +1,6 @@
 import React from "react";
 import Cta from "../../partials/Cta/Cta";
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/logo.png";
 import "./About.css";
 const about = [
     {
@@ -31,15 +31,19 @@ const about = [
 
 const Ab = () => {
     return (
-        <>    <div className="logo">
-        <a href="/"> <img
-             src={logo}
-             className="h-40 w-40 bg-transparent"
-             alt=""
-         /></a>
-     </div>
+        <>
+            {" "}
+            <div className="logo">
+                <a href="/">
+                    {" "}
+                    <img
+                        src={logo}
+                        className="h-40 w-40 bg-transparent"
+                        alt=""
+                    />
+                </a>
+            </div>
             <Cta />
-
             <div className="flex flex-col items-center w-full">
                 <div className="">
                     <h1 className="text-xl text-sans-serif font-medium tracking-widest text-center my-5">
@@ -148,11 +152,11 @@ const Ab = () => {
                             Our Team
                         </h1>
                         <h4 className="text-4xl text-sans-serif font-bold text-center text-white pt-7 pb-5">
-                            CatsnTech
+                            CatsnTechs
                         </h4>
                         <p className="max-w-2xl leading-8  text-justify">
                             {" "}
-                            Prohands has a very versatile team with abundant
+                            CatsnTechs has a very versatile team with abundant
                             skills and experiences. Our team members are the
                             main backbone of our company. Our team involves
                             Engineers, Technicians, Subject Matter Experts,
@@ -160,7 +164,7 @@ const Ab = () => {
                             areas. Our resources are fully equipped with enough
                             hardware and software tools and test equipment to
                             serve the customer needs for testing and
-                            troubleshooting their network facilities. Prohands
+                            troubleshooting their network facilities. CatsnTechs
                             has dedicated team around major cities in Europe,
                             Middle East and South East Asia. We mobilise our
                             regional workforce to nearby cities as per demand.
