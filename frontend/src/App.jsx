@@ -7,7 +7,8 @@ const Service = lazy(() => import("./components/pages/Service/Service"));
 const Contact = lazy(() => import("./components/pages/Contact/Contact"));
 import Header from "./components/partials/Header/Header";
 import Footer from "./components/partials/Footer/Footer";
-import logo from "../public/logo.png";
+import logo from "../src/assets/logo.png";
+
 function App() {
     return (
         <>
@@ -32,7 +33,6 @@ function App() {
             </BrowserRouter>
         </>
     );
-
 }
 
 export default App;
