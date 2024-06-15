@@ -1,8 +1,21 @@
 
     .cta {
-        background-image: url('https://cdn.pixabay.com/photo/2015/12/04/17/21/fractal-1076861_1280.jpg');
         background-position: center;
         background-size: cover;
         background-attachment: fixed; /* Ensures the background image is fixed */
         min-height: 100vh; /* Ensures it covers the full viewport height */
       }
+      .cta::before{
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        transition: opacity 0.5s ease;
+        z-index: 100;
+      }
+      .text{
+        height: fit-content;
+        margin: 1rem;
+        z-index: 1000;
+      }
+      
