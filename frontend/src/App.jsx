@@ -9,8 +9,6 @@ import Header from "./components/partials/Header/Header";
 import Footer from "./components/partials/Footer/Footer";
 import logo from "../src/assets/logo.png";
 
-import { AnimatePresence } from "framer-motion";
-import Loading from "./components/partials/Loading/Loading";
 function App() {
     return (
         <>
@@ -29,7 +27,6 @@ function App() {
             </BrowserRouter>
         </>
     );
-
 }
 
 export default App;
