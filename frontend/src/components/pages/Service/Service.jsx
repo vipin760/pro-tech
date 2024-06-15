@@ -1,12 +1,19 @@
 import React from 'react'
 import "./Service.css"
-import LandingPage from '../../partials/LandingPage/LandingPage'
+import Cta from '../../partials/Cta/Cta'
+import HomeService from '../../partials/Home-Service/HomeService'
+import WhatWeDo from '../../partials/WhatWeDo/WhatWeDo'
 
 const Service = () => {
   return (
     <div>
-        <LandingPage/>
-      service page works....
+      <div>
+        <Cta/>
+        <div className='min-h-screen'>
+        </div>
+        <WhatWeDo/>
+        <HomeService/>
+</div>
     </div>
   )
 }
