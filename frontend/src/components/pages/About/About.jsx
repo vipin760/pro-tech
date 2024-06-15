@@ -41,7 +41,7 @@ const Ab = () => {
             <Cta />
 
             <div className="flex flex-col items-center w-full">
-                <div className="pt-10">
+                <div className="">
                     <h1 className="text-xl text-sans-serif font-medium tracking-widest text-center my-5">
                         {" "}
                         Here It Starts
