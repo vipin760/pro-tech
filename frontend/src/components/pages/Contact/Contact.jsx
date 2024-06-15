@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import Cta from "../../partials/Cta/Cta";
 import Geograph from "../../partials/Geograph/Geograph";
+import logo from "../../../assets/logo.png"
 
 const Contact = () => {
   const title = "Get in Touch with CatsnTech";
@@ -10,7 +11,15 @@ const Contact = () => {
   const url =
     "https://cdn.pixabay.com/photo/2019/05/10/14/23/contact-us-4193637_640.jpg";
   return (
+    <>
     <div>
+    <div className="logo">
+                    <img
+                        src={logo}
+                        className="h-40 w-40 bg-transparent"
+                        alt=""
+                    />
+                </div>
       <Cta url={url} title={title} description={description} />
       <div className="min-h-screen p-3 flex flex-col items-center">
         <h1 className="m-3 text-sm font-bold text-opacity-35">
@@ -117,6 +126,7 @@ const Contact = () => {
       </div>
       <Geograph/>
     </div>
+    </>
   );
 };
 

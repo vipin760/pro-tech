@@ -13,4 +13,9 @@
         transition: opacity 0.5s ease;
         z-index: 100;
       }
+      .text{
+        height: fit-content;
+        margin: 1rem;
+        z-index: 1000;
+      }
       

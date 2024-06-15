@@ -3,6 +3,7 @@ import "./Service.css"
 import Cta from '../../partials/Cta/Cta'
 import HomeService from '../../partials/Home-Service/HomeService'
 import WhatWeDo from '../../partials/WhatWeDo/WhatWeDo'
+import logo from "../../../assets/logo.png"
 const service = [
   {
     icon: "fas fa-wrench",
@@ -52,13 +53,22 @@ const Service = () => {
   const description="CatsnTech provides a wide range of services including web development, app development, digital marketing, and IT consulting. Our team of experts is dedicated to helping your business succeed in the digital world"
   const url ="https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475661_1280.jpg"
   return (
+    <>
     <div>
       <div>
+      <div className="logo">
+                    <img
+                        src={logo}
+                        className="h-40 w-40 bg-transparent"
+                        alt=""
+                    />
+                </div>
         <Cta title={title} description={description} url={url}/>
         <WhatWeDo/>
         <HomeService service={service}/>
 </div>
     </div>
+    </>
   )
 }
 

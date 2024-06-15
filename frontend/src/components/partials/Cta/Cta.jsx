@@ -9,8 +9,10 @@ const Cta = ({title,description,url}) => {
   return (
     <div>
       <div className="cta min-h-screen w-full flex items-center justify-center flex-col" style={{backgroundImage:`url(${url})`}}>
-      <TextGenerateEffects words={title}/>
-      <TextGenerateEffects words={description} />
+     <div className='text'>
+     <TextGenerateEffects words={title}/>
+     <TextGenerateEffects words={description} />
+     </div>
       </div>
     </div>
   )
