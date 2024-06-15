@@ -14,14 +14,8 @@ function App() {
         <>
             <BrowserRouter>
                 <Header />
-                <div className="absolute z-10 bg-transparent  bg-opacity-50 w-full top-0 left-0 right-0">
-                    <img
-                        src={logo}
-                        className="h-40 w-40 bg-transparent"
-                        alt=""
-                    />
-                </div>
-                <Suspense fallback={<div>Loading.......</div>}>
+                <Suspense fallback={<Loading/>}>
+                
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/About" element={<About />} />
