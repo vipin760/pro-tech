@@ -9,7 +9,7 @@ const Footer = () => {
     <div className=" bg-slate-950 w-full p-3 md:p-1">
     {/* logo */}
     <div className="flex flex-col items-start md:m-3 md:flex md:flex-col md:items-center lg:items-start lg:m-10">
-        <img src={logo} className="w-40 h-32 bg-gray-900 m-2 rounded-xl" alt="" />
+        <img src={logo} className="w-40 h-32 bg-gray-950 border-2 border-gray-700 m-2 rounded-xl" alt="" />
         <h1 className="text-white text-4xl font-bold"><TextGenerateEffects words={"Seeking a seamless and quality remote infrastructure support ?"}/></h1>
       </div>
     <div className="w-full md:flex md:justify-around">
