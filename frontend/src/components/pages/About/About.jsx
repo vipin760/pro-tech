@@ -143,6 +143,25 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <div className="bg-blue-400 pt-10">
+                <h1 className="text-4xl font-bold text-white text-center pb-8">
+                    Team CatsnTech
+                </h1>
+                <p className="text-xl leading-8">
+                    Prohands has a very versatile team with abundant skills and
+                    experiences. Our team members are the main backbone of our
+                    company. Our team involves Engineers, Technicians, Subject
+                    Matter Experts, administrative personnel in various
+                    functional areas. Our resources are fully equipped with
+                    enough hardware and software tools and test equipment to
+                    serve the customer needs for testing and troubleshooting
+                    their network facilities. Prohands has dedicated team around
+                    major cities in Europe, Middle East and South East Asia. We
+                    mobilise our regional workforce to nearby cities as per
+                    demand. We also avail our Partner teams support in various
+                    locations for seamless operations across globe{" "}
+                </p>
+            </div>
         </div>
     );
 };
