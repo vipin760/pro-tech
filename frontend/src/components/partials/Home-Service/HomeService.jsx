@@ -28,12 +28,16 @@ const benefits = [
   "Partner team support in many locations",
 ];
 
-const HomeService = ({service}) => {
+const HomeService = ({ service }) => {
   return (
     <div className="w-full bg-slate-950 p-4">
       <div>
-        <h1 className="text-center">OUR SERVICES</h1>
-        <h1 className="text-4xl text-center">Fulfilment with customer focus</h1>
+        <h1 className="text-center" data-aos="fade-right">
+          OUR SERVICES
+        </h1>
+        <h1 className="text-4xl text-center" data-aos="zoom-in-down">
+          Fulfilment with customer focus
+        </h1>
       </div>
       <div>
         <div className="flex justify-center">
@@ -44,17 +48,25 @@ const HomeService = ({service}) => {
                 <div className="flex rounded-lg h-full dark:bg-gray-800 p-8 flex-col">
                   <div className="flex items-center mb-3">
                     <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full dark:bg-indigo-500 bg-indigo-500 text-white flex-shrink-0">
-                      <i className={item.icon}></i>
+                      <i className={item.icon} data-aos="zoom-in"></i>
                     </div>
-                    <h2 className="text-white dark:text-white text-2xl font-medium">
+                    <h2
+                      className="text-white dark:text-white text-2xl font-medium"
+                      data-aos="zoom-in-up"
+                    >
                       {item.title}
                     </h2>
                   </div>
                   <div className="flex flex-col justify-between flex-grow">
-                    <p className="leading-relaxed text-base text-white dark:text-gray-300">
+                    <p
+                      className="leading-relaxed text-base text-white dark:text-gray-300"
+                      data-aos="fade-down"
+                      data-aos-easing="linear"
+                      data-aos-duration="1500"
+                    >
                       {item.description}
                     </p>
-                    <a
+                    <a data-aos="zoom-out-down"
                       href="/service"
                       className="mt-3 dark:text-white hover:text-blue-600 inline-flex items-center"
                     >

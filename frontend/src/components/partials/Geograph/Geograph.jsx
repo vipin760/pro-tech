@@ -5,11 +5,11 @@ const Geograph = () => {
     <div className='flex flex-col items-center p-4 bg-blue-950'>
       <div className='md:flex max-w-7xl my-3'>
         <div className='w-full md:w-1/2 m-2 text-start'>
-            <h2 className='text-3xl'>Geographical Presence</h2>
-            <h2 className='text-6xl'>Multinational presence & regional experiences</h2>
+            <h2 className='text-3xl' data-aos="zoom-in-down">Geographical Presence</h2>
+            <h2 className='text-6xl' data-aos="zoom-in-down"> Multinational presence & regional experiences</h2>
         </div>
         <div className='w-full m-2 md:w-1/2'>
-            <h3 className='text-lg'>CATSNTECH HAS PRESENCE IN MAJOR CITIES ACROSS EUROPE, MIDDLE EAST AND SOUTH EAST ASIA WITH DEDICATED WORK FORCES. WE ALSO PROVIDE SERVICES IN MAJOR CITIES IN ALL CONTINENTS BY MOBILIZING OUR OWN OR PARTNER RESOURCES BASED ON DEMANDS.</h3>
+            <h3 className='text-lg' data-aos="zoom-in-left">CATSNTECH HAS PRESENCE IN MAJOR CITIES ACROSS EUROPE, MIDDLE EAST AND SOUTH EAST ASIA WITH DEDICATED WORK FORCES. WE ALSO PROVIDE SERVICES IN MAJOR CITIES IN ALL CONTINENTS BY MOBILIZING OUR OWN OR PARTNER RESOURCES BASED ON DEMANDS.</h3>
         </div>
       </div>
       <div className='w-full m-3'>

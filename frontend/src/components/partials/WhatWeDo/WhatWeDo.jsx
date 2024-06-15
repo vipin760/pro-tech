@@ -16,8 +16,8 @@ const WhatWeDo = () => {
     <div className="">
       <div className="flex items-center justify-center">
         <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
-          <h1 className="text-sm m-3 font-bold text-opacity-35">WHAT WE DO</h1>
-          <h2 className="text-3xl uppercase">
+          <h1 className="text-sm m-3 font-bold text-opacity-35" data-aos="fade-left">WHAT WE DO</h1>
+          <h2 className="text-3xl uppercase" data-aos="zoom-in-down">
             Hassle free execution with quality and trust
           </h2>
         </div>
@@ -26,11 +26,11 @@ const WhatWeDo = () => {
       <div className="max-w-2xl mx-auto antialiased pt-4 relative">
         {operations.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black text-white rounded-full md:text-7xl text-4xl  w-fit px-4 mb-4">
+            <h2 className="bg-black text-white rounded-full md:text-7xl text-4xl  w-fit px-4 mb-4" data-aos="zoom-in-down">
               {item.title} &
             </h2>
  
-            <p className={twMerge("text-3xl md:text-5xl mb-4 z-10 relative ")}>
+            <p className={twMerge("text-3xl md:text-5xl mb-4 z-10 relative ")} data-aos="zoom-in-down">
               {item.subtitle}
             </p>
  
