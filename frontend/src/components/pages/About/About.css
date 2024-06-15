@@ -6,3 +6,7 @@
     background-position: center;
     align-items: center;
 }
+.logo{
+    position: absolute;
+    z-index: 1000;
+  }

@@ -14,11 +14,11 @@ const Contact = () => {
     <>
     <div>
     <div className="logo">
-                    <img
+<a href="/">                    <img
                         src={logo}
                         className="h-40 w-40 bg-transparent"
                         alt=""
-                    />
+                    /></a>
                 </div>
       <Cta url={url} title={title} description={description} />
       <div className="min-h-screen p-3 flex flex-col items-center">

@@ -7,7 +7,6 @@ import HomeService from "../../partials/Home-Service/HomeService";
 import Geograph from "../../partials/Geograph/Geograph";
 import MarqueLogo from "../../partials/MarqueLogo/MarqueLogo";
 import Benefits from "../../partials/Benefits/Benefits";
-import Transition from "../../partials/Transition/Transition";
 const service = [
   {
     icon: "fas fa-exchange-alt",
@@ -33,11 +32,13 @@ const Home = () => {
       {" "}
       <div className="min-h-screen w-full">
       <div className="absolute z-10 bg-transparent  bg-opacity-50 w-full top-0 left-0 right-0">
-                    <img
+                   <a href="/">
+                   <img
                         src={logo}
                         className="h-40 w-40 bg-transparent"
                         alt=""
                     />
+                   </a>
                 </div>
         <Hero />
         <WhoWeAre />

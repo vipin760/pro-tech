@@ -1,5 +1,6 @@
 import React from "react";
 import Cta from "../../partials/Cta/Cta";
+import logo from "../../../assets/logo.png"
 import "./About.css";
 const about = [
     {
@@ -30,7 +31,13 @@ const about = [
 
 const Ab = () => {
     return (
-        <>
+        <>    <div className="logo">
+        <a href="/"> <img
+             src={logo}
+             className="h-40 w-40 bg-transparent"
+             alt=""
+         /></a>
+     </div>
             <Cta />
 
             <div className="flex flex-col items-center w-full">
