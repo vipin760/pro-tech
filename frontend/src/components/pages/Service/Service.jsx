@@ -50,7 +50,7 @@ const service = [
 ];
 const Service = () => {
   const title = "WE ARE PROVIDING"
-  const description="CatsnTech provides a wide range of services including web development, app development, digital marketing, and IT consulting. Our team of experts is dedicated to helping your business succeed in the digital world"
+  const description="MANY LARGE AND MEDIUM GLOBAL FIRMS FOR THEIR INFRASTRUCTURE SERVICE NEEDS IN VARIOUS WELL-KNOWN DATA CENTRES AND INTERNET EXCHANGES. FAMILIARISATION WITH THEIR FACILITIES AND PROCEDURES BENEFITS OUR CLIENT IN EASING THEIR TASKS."
   const url ="https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475661_1280.jpg"
   return (
     <>

@@ -42,6 +42,7 @@ const WhatWeDo = () => {
                   alt="blog thumbnail"
                   height="1000"
                   width="1000"
+                  data-aos="zoom-in"
                   className="rounded-lg mb-10 object-cover w-[210%]  "
                 />
                 </div>
