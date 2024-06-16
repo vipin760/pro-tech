@@ -1,15 +1,6 @@
 import React from "react";
 import "./HomeService.css";
 
-// const service = [
-//   "Equipment installation",
-//   "Hardware replacement",
-//   "S/w configuration & updates",
-//   "Network migrations",
-//   "Structured cabling",
-//   "Inspection & troubleshooting",
-//   "Logistics support",
-// ];
 const engagements = [
   "Turnkey deployments",
   "Project based outsourcing",
