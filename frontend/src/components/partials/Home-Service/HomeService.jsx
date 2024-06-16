@@ -33,7 +33,7 @@ const HomeService = ({service}) => {
     <div className="w-full bg-slate-950 p-4">
       <div>
         <h1 className="text-center">OUR SERVICES</h1>
-        <h1 className="text-4xl text-center">Fulfilment with customer focus</h1>
+        <h1 className="text-4xl text-center">Comprehensive Data Center Solutions</h1>
       </div>
       <div>
         <div className="flex justify-center">

@@ -13,11 +13,13 @@ const WhoWeAre = () => {
         <h1 className="text-sm m-3 font-bold text-opacity-35">WHO WE ARE</h1>
         <h2 className="text-3xl">WE PROVIDE TOPNOTCH NETWORK
         INFRASTRUCTURE SERVICES</h2>
-        <p className="text-xl">
-        Catsntechs is an independent, privately owned company providing network infrastructure deployment and maintenance services. Catsntechs offers value-based hands and eyes services available to clients at their remote network premises and facilities in various countries.
-        </p>
+        
         <p className="text-xl mt-5">
-        Our goal is to help our customers to succeed in their business by partnering with their IT network deployments and maintenance requirements. We ensure customer satisfaction through high quality and flexible services in secure and trusted means by utilizing our multi-skilled workforce and industry experiences.
+        At Cats N Tech Pvt Ltd is a leading provider of data center services, headquartered in
+India with a global reach. With a team of experienced professionals and a commitment
+to excellence, we strive to exceed our clients expectations and provide innovative
+solutions to meet the evolving demands of the data center industry.
+
         </p>
 
 

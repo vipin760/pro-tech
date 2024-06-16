@@ -7,6 +7,7 @@ import HomeService from "../../partials/Home-Service/HomeService";
 import Geograph from "../../partials/Geograph/Geograph";
 import MarqueLogo from "../../partials/MarqueLogo/MarqueLogo";
 import Benefits from "../../partials/Benefits/Benefits";
+import WhyChoose from "../../partials/WhyChoose/WhyChoose";
 const service = [
   {
     icon: "fas fa-exchange-alt",
@@ -45,6 +46,7 @@ const Home = () => {
         <WhatWeDo />
         <HomeService service={service} />
         <Benefits />
+        <WhyChoose/>
         <Geograph />
         <MarqueLogo />
       </div>

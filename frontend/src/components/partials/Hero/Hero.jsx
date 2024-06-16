@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Hero.css"
 import TextGenerateEffects from '../../ui/TextGenerateEffects'
-
-const header = `Partnering in Business Sustainability through Network Technical Support Partnering in Business Sustainability`;
+const header = `Welcome to Cats N Tech Pvt Ltd`
+const description = `At Cats N Tech Pvt Ltd, we deliver tailored data center solutions to meet your business needs globally.`;
 const Hero = () => {
   return (
     <div className="m-0 p-0">
@@ -14,8 +14,8 @@ const Hero = () => {
       
       <div className="relative flex items-center justify-center min-h-screen px-4 md:px-8 lg:px-16">
         <div className="bg-opacity-100 text-white p-6 rounded-lg shadow-lg text-center">
-          <h1 className="text-4xl font-bold mb-4"><TextGenerateEffects words={"WE ARE"}/></h1>
-        <TextGenerateEffects words={header}/>
+          <h1 className="text-4xl font-bold mb-4"><TextGenerateEffects words={header}/></h1>
+        <TextGenerateEffects words={description}/>
         <div className='m-5'>
         <a href="/contact" className='bg-gray-500 bg-opacity-40 p-4 m-20 hover:bg-opacity-85 cursor-pointer rounded-xl'>Contact us</a>
         </div>
