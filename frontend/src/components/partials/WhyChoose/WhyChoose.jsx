@@ -17,7 +17,7 @@ const chooseItmes = [
     icon: "",
     title: "24x7 Emergency Support",
     description:
-      ": We offer round-the-clock emergency support to ensure minimal disruption to your operations",
+      "We offer round-the-clock emergency support to ensure minimal disruption to your operations",
   },
   {
     icon: "",
