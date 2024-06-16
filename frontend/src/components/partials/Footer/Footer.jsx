@@ -16,21 +16,14 @@ const Footer = () => {
       {/* address */}
       <div className="mt-2">
         <div className="text-white">
-          <h1 className="font-bold text-xl">ABC Branch</h1>
+          <h1 className="font-bold text-xl">Catsntechs</h1>
           <p>
-          1st Floor - xyz Building
+          Z31 KP Arcade
           </p>
-          <p>unesco, USA</p>
-          <p>Phone: +91 900000000</p>
-          <p>Email:example@gmail.com</p>
+          <p>IGBT, Manjeri, Malappuram, Kerala, India.</p>
+          <p>Phone: <a href="tel:+91 9778191325">+91 9778191325</a></p>
+          <p>Email: <a href="mailto:support@catsntechs.com">support@catsntechs.com</a></p>
 
-          <h1>DEF Branch</h1>
-          <p>
-          1st Floor - xyz Building
-          </p>
-          <p>unesco, USA</p>
-          <p>Phone: +91 900000000</p>
-          <p>Email:example@gmail.com</p>
         </div>
         <div className="my-4">
           <ul className="flex gap-2">
@@ -57,16 +50,16 @@ const Footer = () => {
         <h1 className="font-bold text-xl">QUICK LINKS</h1>
         <ul>
           <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/><a href="/">Home</a></li>
-          <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/><a href="/about">About</a></li>
-          <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/><a href="/contact">Contact</a></li>
-          <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/>  <a href="/service">Service</a></li>
+          <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/><a href="/about">About Us</a></li>
+          <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/><a href="/contact">Contact Us</a></li>
+          <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/>  <a href="/service">Our Services</a></li>
         </ul>
       </div>
     </div>
     </div>
     
     <div className="bg-black text-white">
-      <h1 className="p-2 text-center">@copyrights reserved Catsntech</h1>
+      <h1 className="p-2 text-center">@Copyright © 2024 Cats N Tech Pvt Ltd. All rights reserved.</h1>
     </div>
     </>
   );
