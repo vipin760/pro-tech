@@ -29,7 +29,7 @@ const about = [
     },
 ];
 
-const Ab = () => {
+const About = () => {
     return (
         <>
             {" "}
@@ -50,13 +50,16 @@ const Ab = () => {
                         {" "}
                         Here It Starts
                     </h1>
-                    <h4 className="text-4xl text-sans-serif font-bold text-center ">
+                    <h4 className="text-4xl text-sans-serif font-bold text-center">
                         {" "}
                         Hear From Our Story
                     </h4>
                     <div className="my-8 lg:flex ">
                         <div className="p-4 max-w-xl">
-                            <img src="https://media.istockphoto.com/id/1465188429/photo/business-performance-monitoring-concept-businessman-using-smartphone-online-survey-filling.jpg?s=612x612&w=0&k=20&c=7c47U-ZeTVL4H1_jPyO-8V3mKVPbeDb25oOxIV7NoEE=" />
+                            <img
+                                src="https://media.istockphoto.com/id/1465188429/photo/business-performance-monitoring-concept-businessman-using-smartphone-online-survey-filling.jpg?s=612x612&w=0&k=20&c=7c47U-ZeTVL4H1_jPyO-8V3mKVPbeDb25oOxIV7NoEE="
+                                data-aos="zoom-in"
+                            />
                         </div>
                         <div className="p-4 max-w-xl">
                             <h1 className="font-semibold text-2xl lg:text-3xl text-sans pb-6">
@@ -81,17 +84,17 @@ const Ab = () => {
 
                 <div className="p-4 lg:flex">
                     <div className="p-8 flex  justify-center max-w-2xl">
-                        <div className="">
-                            <div>
+                        <div className="" data-aos="fade-down-left">
+                            <div className="">
                                 <img
+                                    className="-mx-5 h-48 w-72 rounded-se-xl rounded-bl-xl "
                                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPIUMBkLC1gYG0A9D7Gnvw4kY4R0Ybo92N5A&s"
-                                    className="-mx-5"
                                 />
                             </div>
-                            <div className="-translate-y-8 -mx-10">
+                            <div className="-translate-y-12 -mx-10">
                                 <img
-                                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPIUMBkLC1gYG0A9D7Gnvw4kY4R0Ybo92N5A&s"
-                                    className="border-spacing-3 border-4 h-36 w-48 mx-32"
+                                    src="https://img.freepik.com/free-photo/laptop-with-blue-optical-fiber_23-2148779308.jpg"
+                                    className="border-spacing-3 border-4 h-36 w-48 mx-32  rounded-se-xl rounded-bl-xl "
                                 />
                             </div>
                         </div>
@@ -154,7 +157,12 @@ const Ab = () => {
                         <h4 className="text-4xl text-sans-serif font-bold text-center text-white pt-7 pb-5">
                             CatsnTechs
                         </h4>
-                        <p className="max-w-2xl leading-8  text-justify">
+                        <p
+                            className="max-w-2xl leading-8  text-justify"
+                            data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"
+                        >
                             {" "}
                             CatsnTechs has a very versatile team with abundant
                             skills and experiences. Our team members are the
@@ -200,7 +208,12 @@ const Ab = () => {
                                         </h2>
                                     </div>
                                     <div className="flex flex-col text-justify flex-grow">
-                                        <p className="leading-relaxed text-base  text-gray-400 dark:text-gray-300">
+                                        <p
+                                            className="leading-relaxed text-base  text-gray-400 dark:text-gray-300"
+                                            data-aos="fade-down"
+                                            data-aos-easing="linear"
+                                            data-aos-duration="1500"
+                                        >
                                             {item.description}
                                         </p>
                                     </div>
@@ -225,9 +238,15 @@ const Ab = () => {
                                 <img
                                     src="https://www.shutterstock.com/shutterstock/videos/1069162396/thumb/8.jpg?ip=x480 "
                                     className=""
+                                    data-aos="zoom-in"
                                 />
                             </div>
-                            <p className="text-xl font-bold text-justify text-sans-serif pt-7 max-w-2xl ">
+                            <p
+                                className="text-xl font-bold text-justify text-sans-serif pt-7 max-w-2xl"
+                                data-aos="fade-down"
+                                data-aos-easing="linear"
+                                data-aos-duration="1500"
+                            >
                                 {" "}
                                 At the heart of CatsnTechs lies a mission to
                                 empower businesses with the tools and strategies
@@ -246,4 +265,4 @@ const Ab = () => {
     );
 };
 
-export default Ab;
+export default About;
