@@ -67,7 +67,7 @@ const Service = () => {
                 </div>
         <Cta title={title} description={description} url={url}/>
         <WhatWeDo/>
-        <HomeService service={service}/>
+        <HomeService service={service} show={false} />
 </div>
     </div>
     </>

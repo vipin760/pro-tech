@@ -19,16 +19,12 @@ const benefits = [
   "Partner team support in many locations",
 ];
 
-const HomeService = ({ service }) => {
+const HomeService = ({ service,show }) => {
   return (
     <div className="w-full bg-slate-950 p-4">
       <div>
-        <h1 className="text-center" data-aos="fade-right">
-          OUR SERVICES
-        </h1>
-        <h1 className="text-4xl text-center" data-aos="zoom-in-down">
-          Fulfilment with customer focus
-        </h1>
+        <h1 className="text-center">OUR SERVICES</h1>
+        <h1 className="text-4xl text-center">Comprehensive Data Center Solutions</h1>
       </div>
       <div>
         <div className="flex justify-center">
@@ -57,7 +53,8 @@ const HomeService = ({ service }) => {
                     >
                       {item.description}
                     </p>
-                    <a data-aos="zoom-out-down"
+                   {
+                    show?( <a data-aos="zoom-out-down"
                       href="/service"
                       className="mt-3 dark:text-white hover:text-blue-600 inline-flex items-center"
                     >
@@ -73,7 +70,8 @@ const HomeService = ({ service }) => {
                       >
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                       </svg>
-                    </a>
+                    </a>):(<></>)
+                   }
                   </div>
                 </div>
               </div>
