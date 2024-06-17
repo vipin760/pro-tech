@@ -21,10 +21,10 @@ const Contact = () => {
                         alt=""
                     /></a>
                 </div>
-      <Cta url={url} title={title} description={description} />
+      <Cta url={url} title={title} description={description} page={'Contact us'}/>
       <div className="min-h-screen p-3 flex flex-col items-center">
         <h1 className="m-3 text-sm font-bold text-opacity-35">
-          Welcome to Catsntechs
+          
         </h1>
         <div className="m-3">
           <h1 className="text-5xl">Come visit us and say hello !!</h1>

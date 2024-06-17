@@ -43,7 +43,7 @@ const About = () => {
                     />
                 </a>
             </div>
-            <Cta />
+            <Cta page={'About us'}/>
             <div className="flex flex-col items-center w-full">
                 <div className="">
                     <h1 className="text-xl text-sans-serif font-medium tracking-widest text-center my-5">
