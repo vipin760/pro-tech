@@ -6,9 +6,8 @@ import logo from "../../../assets/logo.png"
 import FormData from "../../partials/FormData/FormData";
 
 const Contact = () => {
-  const title = "Get in Touch with Catsntechs";
   const description =
-    "Whether you have a question, need assistance, or want to collaborate, our team at Catsntechs is here to help. Reach out to us and let's create something amazing together!";
+    "WHTHER YOU HAVE A QUESTION, NEED ASSISTANCE , OR WANT TO COLLABORATE , OUR TEAM AT CATSNTECH IS HERE TO HELP. REACH OUT TO US AND LET'S CREATE SOMETHING AMAZING TOGETHER"
   const url =
     "https://cdn.pixabay.com/photo/2019/05/10/14/23/contact-us-4193637_640.jpg";
   return (
@@ -21,7 +20,7 @@ const Contact = () => {
                         alt=""
                     /></a>
                 </div>
-      <Cta url={url} title={title} description={description} page={'Contact us'}/>
+      <Cta url={url} description={description} page={'CONTACT US'}/>
       <div className="min-h-screen p-3 flex flex-col items-center">
         <h1 className="m-3 text-sm font-bold text-opacity-35">
           
@@ -31,17 +30,17 @@ const Contact = () => {
           <div className="my-4 md:flex gap-6">
             <span>
               <h1 className="font-bold text-xl my-1">Address</h1>
-              <p>CATSNTECHS</p>
-              <p>250 Bis, Boulevard Saint-Germain</p>
-              <p>Paris 75007, France.</p>
+              <p>CATSNTECH Pvt Ltd</p>
+              <p>Z31 KP Arcade</p>
+              <p>IGBT, Manjeri, Malappuram, Kerala, India</ p>
             </span>
             <span>
               <h1 className="font-bold text-xl my-1">Phone</h1>
-              <p>+33 7 87 97 05 40</p>
+              <a href="tel:+91 9778191325"><p>+91 9778191325</p></a>
             </span>
             <span>
               <h1 className="font-bold text-xl my-1">Email</h1>
-              <p>support@catsntechs.com</p>
+              <a href="mailto:support@catsntechs.com"><p>support@catsntechs.com</p></a>
             </span>
           </div>
         </div>

@@ -39,6 +39,7 @@ const Footer = () => {
       <div className="text-white mt-4">
         <h1 className="font-bold text-xl">GLOBAL CONTACTS</h1>
         <ul className="text-white">
+        <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/>  UAE</li>
           <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/>  Europe</li>
           <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/>UK</li>
           <li className="flex hover:pl-2 transition-all duration-500 ease-in-out"> <IconChevronRight/>Singapore</li>

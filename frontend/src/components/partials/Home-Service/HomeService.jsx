@@ -46,7 +46,7 @@ const HomeService = ({ service,show }) => {
                   </div>
                   <div className="flex flex-col justify-between flex-grow">
                     <p
-                      className="leading-relaxed text-base text-white dark:text-gray-300"
+                      className="leading-relaxed text-justify text-white dark:text-gray-300"
                       data-aos="fade-down"
                       data-aos-easing="linear"
                       data-aos-duration="1500"
