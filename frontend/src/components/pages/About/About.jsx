@@ -29,6 +29,8 @@ const about = [
     },
 ];
 
+const description = " MANY LARGE AND MEDIUM GLOBAL FIRMS FOR THEIR INFRASTRUCTURE, FAMILIARISATION WITH THEIR FACILITIES AND PROCEDURES BENEFITS OUR CLIENT IN EASING THEIR TASKS."
+
 const About = () => {
     return (
         <>
@@ -43,7 +45,7 @@ const About = () => {
                     />
                 </a>
             </div>
-            <Cta page={'About us'}/>
+            <Cta page={'ABOUT US'} description={description}/>
             <div className="flex flex-col items-center w-full">
                 <div className="">
                     <h1 className="text-xl text-sans-serif font-medium tracking-widest text-center my-5">

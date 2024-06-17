@@ -1,8 +1,10 @@
 import React from 'react'
 import "./Hero.css"
 import TextGenerateEffects from '../../ui/TextGenerateEffects'
+import Button from '../Button/Button';
 
-const header = `Partnering in Business Sustainability through Network Technical Support Partnering in Business Sustainability`;
+const header = 'Welcome to Cats N Tech Pvt Ltd'
+const description = `Partnering in Business Sustainability through Network Technical Support`;
 const Hero = () => {
   return (
     <div className="m-0 p-0">
@@ -12,11 +14,11 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-bl"></div>
       
       <div className="relative flex items-center justify-center min-h-screen px-4 md:px-8 lg:px-16">
-        <div className="bg-opacity-100 text-white p-6 rounded-lg shadow-lg text-center">
-          <h1 className="text-4xl font-bold mb-4"><TextGenerateEffects words={"WE ARE"}/></h1>
-        <TextGenerateEffects words={header}/>
-        <div className='m-5'>
-        <a href="/contact" className='bg-gray-500 bg-opacity-40 p-1 py-2 px-3 hover:bg-opacity-85 cursor-pointer rounded-xl'>Contact us</a>
+        <div className="bg-opacity-100 text-white p-6 rounded-lg shadow-lg text-center flex flex-col items-center">
+          <h1 className="text-7xl font-bold mb-4"><TextGenerateEffects words={header}/></h1>
+        <TextGenerateEffects words={description}/>
+        <div className='m-5 w-full flex justify-center'>
+        <a href="/contact" className=''> <Button/> </a>
         </div>
         </div>
         

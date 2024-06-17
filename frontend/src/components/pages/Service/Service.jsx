@@ -49,8 +49,7 @@ const service = [
   },
 ];
 const Service = () => {
-  const title = "WE ARE PROVIDING"
-  const description="MANY LARGE AND MEDIUM GLOBAL FIRMS FOR THEIR INFRASTRUCTURE SERVICE NEEDS IN VARIOUS WELL-KNOWN DATA CENTRES AND INTERNET EXCHANGES. FAMILIARISATION WITH THEIR FACILITIES AND PROCEDURES BENEFITS OUR CLIENT IN EASING THEIR TASKS."
+  const description="WE OFFER COMPREHESIVE RANGE OF DATA CENTER SERVICE TO HELP YOU OPTIMIZE YOUR OPERATIONS AND MAXIMIZE EFFICIENCY"
   const url ="https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475661_1280.jpg"
   return (
     <>
@@ -65,7 +64,7 @@ const Service = () => {
                     />
                    </a>
                 </div>
-        <Cta title={title} description={description} url={url} page={'Service'}/>
+        <Cta description={description} url={url} page={'SERVICE'}/>
         <WhatWeDo/>
         <HomeService service={service} show={false} />
 </div>

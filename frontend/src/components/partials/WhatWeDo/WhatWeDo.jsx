@@ -17,7 +17,7 @@ const WhatWeDo = () => {
       <div className="flex items-center justify-center">
         <div className="md:w-3/4 lg:w-2/3 xl:w-1/2">
           <h1 className="text-sm m-3 font-bold text-opacity-35" data-aos="fade-left">WHAT WE DO</h1>
-          <h2 className="text-3xl uppercase" data-aos="zoom-in-down">
+          <h2 className="text-3xl uppercase ml-3" data-aos="zoom-in-down">
             Hassle free execution with quality and trust
           </h2>
         </div>
