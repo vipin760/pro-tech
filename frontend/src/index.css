@@ -2,18 +2,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-*{
+ *{
   padding: 0;
   color: white;
+  margin: 0;
+  box-sizing: border-box;
 }
-html{
-  scroll-behavior: smooth;
-  scrollbar-gutter: inherit;
-}
-body {
-  font-family: "Josefin Sans", sans-serif;
+body,
+html,
+#root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* No change here */
+    font-family: "Josefin Sans", sans-serif;
   transition: all 2s ease-in-out;
   background-color: black;
+  scroll-behavior: smooth;
 }
-
