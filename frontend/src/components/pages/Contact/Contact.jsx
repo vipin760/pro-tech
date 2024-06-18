@@ -16,7 +16,7 @@ const Contact = () => {
     <div className="logo">
 <a href="/">                    <img
                         src={logo}
-                        className="h-40 w-40 bg-transparent"
+                        className="h-14 w-14 md:h-24 md:w-24 bg-transparent"
                         alt=""
                     /></a>
                 </div>
