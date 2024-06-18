@@ -28,7 +28,7 @@ const chooseItmes = [
 ];
 const WhyChoose = () => {
   return (
-    <div className="w-full md:flex md:flex-col md:items-center">
+    <div className="w-full md:flex md:flex-col md:items-center bg-slate-950 my-10 py-4">
       <h1 className="text-sm m-3 font-bold text-opacity-35 md:text-center"> WHY CHOOSE US </h1>
       <h1 className="text-3xl text-center my-2">The Cats N Tech Advantage</h1>
       <div className="flex w-full flex-col justify-center items-center ">
