@@ -3,11 +3,11 @@ import React from "react";
 const Benefits = () => {
   return (
     <div className="flex justify-center">
-      <div className="md:max-w-3xl">
+      <div className="md:max-6-3xl">
         {/* engagements */}
         <div className="m-2 py-10">
           <h1 className="md:text-center text-4xl" data-aos="zoom-in">ENGAGEMENTS</h1>
-          <div className="md:flex md:w-full md:justify-center text-2xl">
+          <div className="md:flex md:w-full text-2xl md:justify-between">
             <ul>
               <li className="m-2" data-aos="zoom-in">- Turnkey deployments</li>
               <li className="m-2" data-aos="zoom-in">- Project based outsourcing</li>
@@ -23,7 +23,7 @@ const Benefits = () => {
         {/* benefits */}
         <div className="m-2">
             <h1 className="md:text-center text-4xl" data-aos="zoom-in">BENEFITS</h1>
-            <div className="md:flex md:w-full md:justify-center text-2xl">
+            <div className="md:flex md:w-full md:justify-between text-2xl">
             <ul className="">
                 <li className="m-2" data-aos="zoom-in">- Rapid resource mobilization</li>
                 <li className="m-2" data-aos="zoom-in">- Versatile and experienced workforce</li>
