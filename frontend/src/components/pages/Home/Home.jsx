@@ -37,7 +37,7 @@ const Home = () => {
                    <a href="/">
                    <img
                         src={logo}
-                        className="h-24 w-24 bg-transparent"
+                        className="h-12 w-12 sm:h-14 sm:w-14 md:h-24 md:w-24 bg-transparent"
                         alt=""
                     />
                    </a>
