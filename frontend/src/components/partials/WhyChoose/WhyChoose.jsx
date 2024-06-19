@@ -38,13 +38,13 @@ const WhyChoose = () => {
             <img className=" bg-slate-500" src="https://cdn.pixabay.com/photo/2016/11/23/14/49/controls-1853330_640.jpg" alt="" />
         </div>
         {/* cards */}
-<div class="container mx-auto px-4 max-w-md my-2">
-    <div class="grid grid-cols-2 gap-6">
+<div className="container mx-auto px-4 max-w-md my-2">
+    <div className="grid grid-cols-2 gap-6">
      {
         chooseItmes.map((items,idx)=>(
-            <div class="border rounded-ss-sm rounded-lg p-2 shadow-lg text-white" data-aos="zoom-in">
-            <h2 class="text-sm font-semibold mb-2">{items.title}</h2>
-            <p class="text-gray-200 text-sm line-clamp-3">{items.description}</p>
+            <div className="border rounded-ss-sm rounded-lg p-2 shadow-lg text-white" data-aos="zoom-in" key={idx}>
+            <h2 className="text-sm font-semibold mb-2">{items.title}</h2>
+            <p className="text-gray-200 text-sm line-clamp-3">{items.description}</p>
           </div>
         ))
      }
