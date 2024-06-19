@@ -5,6 +5,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "framer-motion";
+import { NavLink } from "react-router-dom"
 
 import { cn } from "../../utils/cn";
 
@@ -50,16 +51,18 @@ const FloatingNavbar = ({ navItems, className }) => {
         )}
       >
         {navItems.map((navItem, idx) => (
-          <a
+          <NavLink to={navItem.link}>
+          <span
             key={`link=${idx}`}
-            href={navItem.link}
+            // href={navItem.link}
             className={cn(
               "relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600  dark:hover:text-neutral-300 hover:text-neutral-500",
             )}
           >
             <span className={`block sm:hidden text-white`}>{navItem.name}</span>
             <span className="hidden sm:block text-sm text-white"><span className="flex">{navItem.icon} <p className="mx-1">{navItem.name}</p> </span></span>
-          </a>
+          </span>
+          </NavLink>
         ))}
       </motion.div>
     </AnimatePresence>
