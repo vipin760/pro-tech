@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="m-0 p-0">
     <div className="relative min-h-screen w-full">
-      <video src="https://videos.pexels.com/video-files/4496268/4496268-sd_640_360_25fps.mp4" autoPlay muted loop playsinline className="absolute top-0 left-0 w-full h-full object-cover"></video>
+      <video src="https://videos.pexels.com/video-files/4496268/4496268-sd_640_360_25fps.mp4" autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover"></video>
       
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-bl"></div>
       
