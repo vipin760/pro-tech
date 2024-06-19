@@ -1,4 +1,5 @@
 import React from "react";
+import "./WhyChoose.css"
 
 const chooseItmes = [
   {
@@ -33,8 +34,8 @@ const WhyChoose = () => {
       <h1 className="text-3xl text-center my-2">The Cats N Tech Advantage</h1>
       <div className="flex w-full flex-col justify-center items-center ">
     <div className="flex flex-col max-w-4xl justify-center items-center p-2 md:flex-row md:items-start">
-        <div>
-            <img className="" data-aos="zoom-in" src="https://cdn.pixabay.com/photo/2016/11/23/14/49/controls-1853330_640.jpg" alt="" />
+        <div className="element">
+            <img className=" bg-slate-500" src="https://cdn.pixabay.com/photo/2016/11/23/14/49/controls-1853330_640.jpg" alt="" />
         </div>
         {/* cards */}
 <div class="container mx-auto px-4 max-w-md my-2">
